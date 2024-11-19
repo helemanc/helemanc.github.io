@@ -7,10 +7,12 @@ github_repos:
 
   - helemanc/PartyNAO
   - helemanc/ambient-intelligence
+  - helemanc/parkinsons-speech-xai
   - helemanc/COVID19-twitter-depression
   - helemanc/gryffindor
   - nlp-unibo/multimodal-am
   - nlp-unibo/multimodal-am-fallacy
   - nlp-unibo/mamkit 
   - MarcelloSimonati/DeepImageDeblurring
+
 

@@ -1,7 +1,7 @@
 ---
 ---
 
-@article{mancini-etal-2022-multimodal,
+@inproceedings{mancini-etal-2022-multimodal,
   bibtex_show={true},
   abbr={ArgMining},
   pdf={2022.argmining-1.15.pdf},
@@ -23,5 +23,158 @@
   url = "https://aclanthology.org/2022.argmining-1.15",
   pages = "158--170",
   abstract = "We propose a study on multimodal argument mining in the domain of political debates. We collate and extend existing corpora and provide an initial empirical study on multimodal architectures, with a special emphasis on input encoding methods. Our results provide interesting indications about future directions in this important domain.",
+}
+
+@article{MANCINI2024200305,
+  bibtex_show={true},
+  abbr={ISWA},
+  pdf={2024.iswa.pdf},
+  code={https://github.com/helemanc/ambient-intelligence},
+  title = {Disruptive situation detection on public transport through speech emotion recognition},
+  journal = {Intelligent Systems with Applications},
+  volume = {21},
+  pages = {200305},
+  year = {2024},
+  issn = {2667-3053},
+  doi = {https://doi.org/10.1016/j.iswa.2023.200305},
+  url = {https://www.sciencedirect.com/science/article/pii/S2667305323001308},
+  author = {Eleonora Mancini and Andrea Galassi and Federico Ruggeri and Paolo Torroni},
+  keywords = {Speech emotion recognition, Affective computing, Natural language processing, Machine learning, Data augmentation},
+  abstract = {Disruptive situations are emotionally-charged events diverging from ordinary behavior, like people fighting or screaming. Public transports are one type of social environment where disruptive situation may occur, and their timely detection may bring significant improvements to people's safety. Current approaches to disruptive situation detection, typically based on CCTVs, do not take the emotional dimension into account. Conversely, we propose to frame such a problem as a speech emotion recognition task. To validate our hypotheses, we carry out an extensive experimental study focusing on the development of a model characterized by speaker/gender independence, robustness to noise, and robustness against multiple voices. We investigate a variety of audio features, classifiers, datasets, and data augmentation methods in an effort to define effective ways to address this under-investigated yet socially significant problem. Our experiments show that the proposed systems attain an F1 score of over 90% on the disruptive class, even when introducing noisy elements such as environmental noise or multiple overlapping voices. This robust performance is achieved with datasets characterized by speaker variability, gender diversity, and varying number of samples. Such promising results indicate that framing disruptive situation detection as a speech emotion recognition task could pave the way to the adoption of new types of intelligent systems with a positive impact on public safety.}
+}
+
+@inproceedings{mancini-etal-2024-multimodal,
+  bibtex_show={true},
+  abbr={EACL},
+  pdf={2024.eacl-short.pdf},
+  code={https://github.com/nlp-unibo/multimodal-am-fallacy},
+  title = "Multimodal Fallacy Classification in Political Debates",
+  author = "Mancini, Eleonora  and
+    Ruggeri, Federico  and
+    Torroni, Paolo",
+  editor = "Graham, Yvette  and
+    Purver, Matthew",
+  booktitle = "Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  month = mar,
+  year = "2024",
+  address = "St. Julian{'}s, Malta",
+  publisher = "Association for Computational Linguistics",
+  url = "https://aclanthology.org/2024.eacl-short.16",
+  pages = "170--178",
+  abstract = "Recent advances in NLP suggest that some tasks, such as argument detection and relation classification, are better framed in a multimodal perspective. We propose multimodal argument mining for argumentative fallacy classification in political debates. To this end, we release the first corpus for multimodal fallacy classification. Our experiments show that the integration of the audio modality leads to superior classification performance. Our findings confirm that framing fallacy classification as a multimodal task is essential to capture paralinguistic aspects of fallacious arguments.",
+}
+
+
+@inproceedings{ijcai2023p644,
+  bibtex_show={true},
+  abbr={IJCAI},
+  pdf={2023.ijcai.pdf},
+  code={https://github.com/helemanc/PartyNAO},
+  title     = {Towards Symbiotic Creativity: A Methodological Approach to Compare Human and AI Robotic Dance Creations},
+  author    = {De Filippo, Allegra and Giuliani, Luca and Mancini, Eleonora and Borghesi, Andrea and Mello, Paola and Milano, Michela},
+  booktitle = {Proceedings of the Thirty-Second International Joint Conference on
+               Artificial Intelligence, {IJCAI-23}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  editor    = {Edith Elkind},
+  pages     = {5806--5814},
+  year      = {2023},
+  month     = {8},
+  note      = {AI and Arts},
+  doi       = {10.24963/ijcai.2023/644},
+  url       = {https://doi.org/10.24963/ijcai.2023/644},
+  abstract  = {Artificial Intelligence (AI) has gradually attracted attention in the field of artistic creation, resulting in a debate on the evaluation of AI artistic outputs. However, there is a lack of common criteria for objective artistic evaluation both of human and AI creations. This is a frequent issue in the field of dance, where different performance metrics focus either on evaluating human or computational skills separately. This work proposes a methodological approach for the artistic evaluation of both AI and human artistic creations in the field of robotic dance. First, we define a series of common initial constraints to create robotic dance choreographies in a balanced initial setting, in collaboration with a group of human dancers and choreographer. Then, we compare both creation processes through a human audience evaluation. Finally, we investigate which choreography aspects (eg, the music genre) have the largest impact on the evaluation, and we provide useful guidelines and future research directions for the analysis of interconnections between AI and human dance creation.}
+}
+
+
+@inproceedings{muti2023enriching,
+  bibtex_show={true},
+  abbr={CLEF},
+  pdf={2023.clef.pdf},
+  title={Enriching hate-tuned transformer-based embeddings with emotions for the categorization of sexism},
+  author={Muti, Arianna and Mancini, Eleonora and others},
+  booktitle={CEUR Workshop Proceedings},
+  volume={3497},
+  pages={1012--1023},
+  year={2023},
+  organization={CEUR-WS},
+  abstract={We present the results of the participation of our team Unibo in the shared task sEXism Identification in Social neTworks (EXIST). We target all three tasks: a) binary sexism identification, b) discerning the author’s intention, and c) categorizing instances into fine-grained categories. For all the tasks, both English and Spanish data are to be considered. We compare two approaches to address this multilingual aspect: we employ machine translation to convert the Spanish data into English, allowing us to utilize a specially fine-tuned version of RoBERTa to detect hateful content, and we experiment with a multilingual version of RoBERTa to perform classification while preserving data in their original language. Furthermore, we predict emotions associated with each post and leverage them as additional features by concatenating them with the original text. This augmentation improves the performance of our models in Task 2 and 3. Our official submissions obtain F1= 0.77 in Task 1 (13th position out of 69), macro-averaged F1= 0.53 in Task 2 (4th position out of 35) and macro-averaged F1= 0.59 in Task 3 (4th position out of 32).}
+}
+
+@article{mancini2024lmac,
+  bibtex_show={true},
+  abbr={arXiv preprint},
+  pdf={2024.lmactd-preprint.pdf},
+  code={https://francescopaissan.it/lmac-td},
+  title={LMAC-TD: Producing Time Domain Explanations for Audio Classifiers},
+  author={Mancini, Eleonora and Paissan, Francesco and Ravanelli, Mirco and Subakan, Cem},
+  journal={arXiv preprint arXiv:2409.08655},
+  year={2024},
+  abstract={Neural networks are typically black-boxes that remain opaque with regards to their decision mechanisms. Several works in the literature have proposed post-hoc explanation methods to alleviate this issue. This paper proposes LMAC-TD, a post-hoc explanation method that trains a decoder to produce explanations directly in the time domain. This methodology builds upon the foundation of L-MAC, Listenable Maps for Audio Classifiers, a method that produces faithful and listenable explanations. We incorporate SepFormer, a popular transformer-based time-domain source separation architecture. We show through a user study that LMAC-TD significantly improves the audio quality of the produced explanations while not sacrificing from faithfulness.}
+}
+
+@inproceedings{mancini-etal-2024-mamkit,
+  bibtex_show={true},
+  abbr={ArgMining},
+  pdf={2024.argmining.pdf},
+  code={https://github.com/lt-nlp-lab-unibo/mamkit},
+  title = "{MAMK}it: A Comprehensive Multimodal Argument Mining Toolkit",
+  author = "Mancini, Eleonora  and
+    Ruggeri, Federico  and
+    Colamonaco, Stefano  and
+    Zecca, Andrea  and
+    Marro, Samuele  and
+    Torroni, Paolo",
+  editor = "Ajjour, Yamen  and
+    Bar-Haim, Roy  and
+    El Baff, Roxanne  and
+    Liu, Zhexiong  and
+    Skitalinskaya, Gabriella",
+  booktitle = "Proceedings of the 11th Workshop on Argument Mining (ArgMining 2024)",
+  month = aug,
+  year = "2024",
+  address = "Bangkok, Thailand",
+  publisher = "Association for Computational Linguistics",
+  url = "https://aclanthology.org/2024.argmining-1.7",
+  doi = "10.18653/v1/2024.argmining-1.7",
+  pages = "69--82",
+  abstract = "Multimodal Argument Mining (MAM) is a recent area of research aiming to extend argument analysis and improve discourse understanding by incorporating multiple modalities. Initial results confirm the importance of paralinguistic cues in this field. However, the research community still lacks a comprehensive platform where results can be easily reproduced, and methods and models can be stored, compared, and tested against a variety of benchmarks. To address these challenges, we propose MAMKit, an open, publicly available, PyTorch toolkit that consolidates datasets and models, providing a standardized platform for experimentation. MAMKit also includes some new baselines, designed to stimulate research on text and audio encoding and fusion for MAM tasks. Our initial results with MAMKit indicate that advancements in MAM require novel annotation processes to encompass auditory cues effectively.",
+}
+
+
+@article{mancini2024investigating,
+  bibtex_show={true},
+  abbr={arXiv preprint},
+  pdf={2024.parkinsons-preprint.pdf},
+  code={https://helemanc.github.io/parkinsons-speech-xai/},
+  title={Investigating the Effectiveness of Explainability Methods in Parkinson's Detection from Speech},
+  author={Mancini, Eleonora and Paissan, Francesco and Torroni, Paolo and Ravanelli, Mirco and Subakan, Cem},
+  journal={arXiv preprint arXiv:2411.08013},
+  year={2024},
+  abstract={Speech impairments in Parkinson's disease (PD) provide significant early indicators for diagnosis. While models for speech-based PD detection have shown strong performance, their interpretability remains underexplored. This study systematically evaluates several explainability methods to identify PD-specific speech features, aiming to support the development of accurate, interpretable models for clinical decision-making in PD diagnosis and monitoring. Our methodology involves (i) obtaining attributions and saliency maps using mainstream interpretability techniques, (ii) quantitatively evaluating the faithfulness of these maps and their combinations obtained via union and intersection through a range of established metrics, and (iii) assessing the information conveyed by the saliency maps for PD detection from an auxiliary classifier. Our results reveal that, while explanations are aligned with the classifier, they often fail to provide valuable information for domain experts.}
+}
+
+
+@article{mancini2024promoting,
+  bibtex_show={true},
+  abbr={arXiv preprint},
+  pdf={2024.fairness-preprint.pdf},
+  code={https://github.com/lt-nlp-lab-unibo/ethical-survey-speech},
+  title={Promoting Fairness and Diversity in Speech Datasets for Mental Health and Neurological Disorders Research},
+  author={Mancini, Eleonora and Tanevska, Ana and Galassi, Andrea and Galatolo, Alessio and Ruggeri, Federico and Torroni, Paolo},
+  journal={arXiv preprint arXiv:2406.04116},
+  year={2024},
+  abstract={Current research in machine learning and artificial intelligence is largely centered on modeling and performance evaluation, less so on data collection. However, recent research demonstrated that limitations and biases in data may negatively impact trustworthiness and reliability. These aspects are particularly impactful on sensitive domains such as mental health and neurological disorders, where speech data are used to develop AI applications aimed at improving the health of patients and supporting healthcare providers. In this paper, we chart the landscape of available speech datasets for this domain, to highlight possible pitfalls and opportunities for improvement and promote fairness and diversity. We present a comprehensive list of desiderata for building speech datasets for mental health and neurological disorders and distill it into a checklist focused on ethical concerns to foster more responsible research.}
+}
+
+@inproceedings{ahmad2023draw,
+  bibtex_show={true},
+  abbr={Wikidata},
+  pdf={2023.wikidata.pdf},
+  code={https://github.com/helemanc/gryffindor},
+  title={Draw Me Like My Triples: Leveraging Generative AI for Wikidata Image Completion},
+  author={Ahmad, Raia Abu and Critelli, Martin and Efeoglu, Sefika and Mancini, Eleonora and Ringwald, C{\'e}lian and Zhang, Xingyue and Penuela, Albert Merono},
+  booktitle={The 4th Wikidata Workshop},
+  year={2023},
+  abstract={Humans are critical for the creation and maintenance of high-quality Knowledge Graphs (KGs). However, creating and maintaining large KGs only with humans does not scale, especially for contributions based on multimedia (eg images) that are hard to find and reuse on the Web and expensive to generate by humans from scratch. Therefore, we leverage generative AI for the task of creating images for Wikidata items that do not have them.}
 }
 
