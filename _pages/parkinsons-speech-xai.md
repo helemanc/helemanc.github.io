@@ -23,17 +23,414 @@ Speech impairments in Parkinson's disease (PD) provide significant early indicat
 - Results highlight the need for more effective explainability approaches.
 
 ### Explanations 
+We provide explanations for samples generated from various speech tasks, including diadochokinetic (DDK) exercises, monologues, and reading exercises.
+
+
+Click on any image to view a larger version in a new tab! 
+
 `Diadochokinetic (DDK) Exercises Samples`
 
-TBD: add 4 samples for all combination target-predicted 
+<div class="row">
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/ddk_1_1/original.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/ddk_1_1/original.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/ddk_1_1/saliency.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/ddk_1_1/saliency.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/ddk_1_1/gbp.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/ddk_1_1/gbp.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/ddk_1_1/ggc.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/ddk_1_1/ggc.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/ddk_1_1/shap.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/ddk_1_1/shap.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    
+</div>
+
+<div class="caption">
+    Explanations generated for a PD sample correctly classified by HuBERT.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/ddk_0_0/original.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/ddk_0_0/original.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/ddk_0_0/saliency.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/ddk_0_0/saliency.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/ddk_0_0/gbp.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/ddk_0_0/gbp.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/ddk_0_0/ggc.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/ddk_0_0/ggc.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/ddk_0_0/shap.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/ddk_0_0/shap.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    
+</div>
+
+<div class="caption">
+    Explanations generated for a HC sample correctly classified by HuBERT.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/ddk_1_0/original.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/ddk_1_0/original.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/ddk_1_0/saliency.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/ddk_1_0/saliency.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/ddk_1_0/gbp.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/ddk_1_0/gbp.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/ddk_1_0/ggc.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/ddk_1_0/ggc.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/ddk_1_0/shap.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/ddk_1_0/shap.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    
+</div>
+
+<div class="caption">
+    Explanations generated for a PD sample misclassified by HuBERT.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/ddk_0_1/original.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/ddk_0_1/original.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/ddk_0_1/saliency.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/ddk_0_1/saliency.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/ddk_0_1/gbp.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/ddk_0_1/gbp.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/ddk_0_1/ggc.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/ddk_0_1/ggc.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/ddk_0_1/shap.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/ddk_0_1/shap.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    
+</div>
+
+<div class="caption">
+    Explanations generated for a HC sample misclassified by HuBERT.
+</div>
 
 `Monologue Samples`
 
-TBD: add 4 samples for all combination target-predicted 
+
+<div class="row">
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/monologue_1_1/original.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/monologue_1_1/original.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/monologue_1_1/saliency.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/monologue_1_1/saliency.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/monologue_1_1/gbp.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/monologue_1_1/gbp.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/monologue_1_1/ggc.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/monologue_1_1/ggc.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/monologue_1_1/shap.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/monologue_1_1/shap.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    
+</div>
+
+<div class="caption">
+    Explanations generated for a PD sample correctly classified by HuBERT.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/monologue_0_0/original.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/monologue_0_0/original.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/monologue_0_0/saliency.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/monologue_0_0/saliency.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/monologue_0_0/gbp.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/monologue_0_0/gbp.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/monologue_0_0/ggc.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/monologue_0_0/ggc.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/monologue_0_0/shap.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/monologue_0_0/shap.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    
+</div>
+
+<div class="caption">
+    Explanations generated for a HC sample correctly classified by HuBERT.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/monologue_1_0/original.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/monologue_1_0/original.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/monologue_1_0/saliency.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/monologue_1_0/saliency.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/monologue_1_0/gbp.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/monologue_1_0/gbp.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/monologue_1_0/ggc.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/monologue_1_0/ggc.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/monologue_1_0/shap.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/monologue_1_0/shap.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    
+</div>
+
+<div class="caption">
+    Explanations generated for a PD sample misclassified by HuBERT.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/monologue_0_1/original.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/monologue_0_1/original.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/monologue_0_1/saliency.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/monologue_0_1/saliency.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/monologue_0_1/gbp.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/monologue_0_1/gbp.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/monologue_0_1/ggc.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/monologue_0_1/ggc.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/monologue_0_1/shap.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/monologue_0_1/shap.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    
+</div>
+
+<div class="caption">
+    Explanations generated for a HC sample misclassified by HuBERT.
+</div>
 
 
-`Read Sentence Samples`
+`Read Text`
 
-TBD: add 4 samples for all combination target-predicted 
+
+<div class="row">
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/read_text_1_1/original.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/read_text_1_1/original.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/read_text_1_1/saliency.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/read_text_1_1/saliency.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/read_text_1_1/gbp.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/read_text_1_1/gbp.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/read_text_1_1/ggc.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/read_text_1_1/ggc.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/read_text_1_1/shap.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/read_text_1_1/shap.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    
+</div>
+
+<div class="caption">
+    Explanations generated for a PD sample correctly classified by HuBERT.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/read_text_0_0/original.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/read_text_0_0/original.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/read_text_0_0/saliency.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/read_text_0_0/saliency.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/read_text_0_0/gbp.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/read_text_0_0/gbp.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/read_text_0_0/ggc.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/read_text_0_0/ggc.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/read_text_0_0/shap.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/read_text_0_0/shap.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    
+</div>
+
+<div class="caption">
+    Explanations generated for a HC sample correctly classified by HuBERT.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/read_text_1_0/original.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/read_text_1_0/original.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/read_text_1_0/saliency.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/read_text_1_0/saliency.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/read_text_1_0/gbp.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/read_text_1_0/gbp.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/read_text_1_0/ggc.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/read_text_1_0/ggc.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/read_text_1_0/shap.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/read_text_1_0/shap.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    
+</div>
+
+<div class="caption">
+    Explanations generated for a PD sample misclassified by HuBERT.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/read_text_0_1/original.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/read_text_0_1/original.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/read_text_0_1/saliency.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/read_text_0_1/saliency.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/read_text_0_1/gbp.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/read_text_0_1/gbp.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/read_text_0_1/ggc.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/read_text_0_1/ggc.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-5 mt-md-0">
+        <a href="{{ '/assets/img/parkinsons-speech-xai/read_text_0_1/shap.jpg' | relative_url }}" target="_blank">
+            {% include figure.liquid loading="eager" path="assets/img/parkinsons-speech-xai/read_text_0_1/shap.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    
+</div>
+
+<div class="caption">
+    Explanations generated for a HC sample misclassified by HuBERT.
+</div>
 
 
