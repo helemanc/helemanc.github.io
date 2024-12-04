@@ -12,6 +12,7 @@ related_publications: false
 
 ## Description
 Project Webpage (Submitted to [SPADE Workshop - ICASSP'25](https://spadeworkshop.github.io/workshop.html)). 
+The code of this project is available [here](https://github.com/helemanc/parkinsons-speech-xai).
 
 ## Abstract 
 Speech impairments in Parkinson's disease (PD) provide significant early indicators for diagnosis. While models for speech-based PD detection have shown strong performance, their interpretability remains underexplored. This study systematically evaluates several explainability methods to identify PD-specific speech features, aiming to support the development of accurate, interpretable models for clinical decision-making in PD diagnosis and monitoring. Our methodology involves (i) obtaining attributions and saliency maps using mainstream interpretability techniques, (ii) quantitatively evaluating the faithfulness of these maps and their combinations obtained via union and intersection through a range of established metrics, and (iii) assessing the information conveyed by the saliency maps for PD detection from an auxiliary classifier. Our results reveal that, while explanations are aligned with the classifier, they often fail to provide valuable information for domain experts.
