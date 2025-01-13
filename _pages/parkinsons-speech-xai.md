@@ -11,7 +11,7 @@ related_publications: false
 
 
 ## Description
-Project Webpage (Submitted to [SPADE Workshop - ICASSP'25](https://spadeworkshop.github.io/workshop.html)). 
+Project Webpage (Accepted at [SPADE Workshop - ICASSP'25](https://spadeworkshop.github.io/workshop.html)). 
 The code of this project is available [here](https://github.com/helemanc/parkinsons-speech-xai).
 
 ## Abstract 
