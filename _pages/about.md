@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.unibo.it/en/'>UniBo</a> & <a href='https://mila.quebec/en'>Mila</a>.  
+subtitle: <a href='https://www.unibo.it/en/'>UniBo</a> & <a href='https://ai.sony/'>Sony AI</a> & <a href='https://mila.quebec/en'>Mila</a>.  
 
 profile:
   align: right
@@ -17,7 +17,7 @@ social: false # includes social icons at the bottom of the page
 
 I am a Ph.D. candidate at the [University of Bologna](https://www.unibo.it) (since 2022).  My work focuses on natural language processing, speech technologies, signal processing, multimodal learning and explainable AI.
 
-I earned an MSc in Artificial Intelligence (2021, with honors) and a BSc in Computer Engineering (2019) from the University of Bologna. I have research experience as a visiting researcher at [MILA Québec AI Institute](https://mila.quebec) (2023) and as an intern at [i2CAT Foundation](https://www.i2cat.net) (2021). My contributions span speech emotion recognition, fairness, interpretability and multimodal argument mining, with publications in venues such as ACL, EACL, and IJCAI.
+I earned an MSc in Artificial Intelligence (2021, with honors) and a BSc in Computer Engineering (2019) from the University of Bologna. I have research experience as a visiting researcher at [Sony AI](https://ai.sony/) (2025), [MILA Québec AI Institute](https://mila.quebec) (2023) and as an intern at [i2CAT Foundation](https://www.i2cat.net) (2021). My contributions span speech emotion recognition, fairness, interpretability and multimodal deep learning, with publications in venues such as ACL, EACL, IJCAI and journals such as ISWA and JAIR.
 
 *Research Interests: Multimodal Learning • Speech Processing • Interpretability*
 
