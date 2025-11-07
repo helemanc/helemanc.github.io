@@ -1,97 +1,137 @@
-- title: General Information
+# _data/cv.yml
+
+- title: Contact
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - name: Name
+      value: Eleonora Mancini
+    - name: Email
+      value: e.mancini@unibo.it
+    - name: Website
+      value: https://helemanc.github.io/
+    - name: GitHub
+      value: https://github.com/helemanc
+    - name: LinkedIn
+      value: https://www.linkedin.com/in/eleonora-mancini/
+    - name: Google Scholar
+      value: https://scholar.google.com/citations?user=1Qk3rogAAAAJ&hl=it
+    - name: Location
+      value: Bologna, Italy
+    - name: CV (PDF)
+      value: /assets/pdf/CV_Eleonora_Mancini.pdf
+# Contact details sourced from your CV. :contentReference[oaicite:1]{index=1}
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Computer Science and Engineering
+      institution: University of Bologna, Italy
+      year: Nov 2022 – Nov 2025 (planned graduation Mar 2026)
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Research Project — Data Representation, Fusion and Interpretability in Multimodal Deep Learning for NLP.
+        - Advisor — Prof. Paolo Torroni.
+        # From your CV. :contentReference[oaicite:2]{index=2}
+    - title: M.Eng. in Artificial Intelligence (110/110 with honours, GPA 4.0)
+      institution: University of Bologna, Italy
+      year: Sep 2019 – Dec 2021
+    - title: B.Eng. in Computer Engineering (101/110, GPA 3.7)
+      institution: University of Bologna, Italy
+      year: Sep 2016 – Oct 2019
+      # From your CV. :contentReference[oaicite:3]{index=3}
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Visiting Researcher
+      institution: Sony AI, Barcelona, Spain (Advisor — Joan Serrà)
+      year: Jan 2025 – Jul 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Transferred speech-model capabilities to music; used ASR models & LLMs for enhanced lyrics representations and multimodal version identification. # :contentReference[oaicite:4]{index=4}
+    - title: Visiting Researcher
+      institution: Mila – Quebec AI Institute, Montréal, Canada
+      year: Sep 2023 – Dec 2023
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - 100+ experiments on interpretability in speech; evaluated post-hoc explainers and developed listenable time-domain explanations (prototype). # :contentReference[oaicite:5]{index=5}
+    - title: Research Fellow
+      institution: Language Technologies Lab, University of Bologna
+      year: Jan 2022 – Oct 2022
       description:
+        - Vague clauses detection in privacy policies (GDPR); BIO tagging classifier; macro-F1 0.91. # :contentReference[oaicite:6]{index=6}
+    - title: Research Intern
+      institution: i2CAT Foundation, Barcelona, Spain
+      year: Apr 2021 – Sep 2021
+      description:
+        - Disruptive situations detection on public transport via Speech Emotion Recognition; robust to noise/overlapping speakers; >90% F1. # :contentReference[oaicite:7]{index=7}
+    - title: Teaching Assistant
+      institution: University of Bologna
+      year: Sep 2021 – Nov 2025
+      description:
+        - NLP (M.Eng AI), Real Time Systems for Automation, Python Programming, Computer Science; lectures, coursework, 1:1 support; AI Camp mentor. # :contentReference[oaicite:8]{index=8}
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Selected Publications
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "Mancini et al., 2025. **LMAC-TD: Producing Time Domain Explanations for Audio Classifiers**. ICASSP 2025, Hyderabad, India." # :contentReference[oaicite:9]{index=9}
+    - "Mancini et al., 2025. **Promoting the Responsible Development of Speech Datasets for Mental Health and Neurological Disorders Research**. JAIR 82: 937–972." # :contentReference[oaicite:10]{index=10}
+    - "Mancini, Ruggeri, Torroni, 2024. **Multimodal Fallacy Classification in Political Debates**. EACL 2024." # :contentReference[oaicite:11]{index=11}
+    - "Mancini et al., 2024. **Disruptive Situations Detection on Public Transports through Speech Emotion Recognition**. ISWA 21: 200305." # :contentReference[oaicite:12]{index=12}
+    - "Full list on Google Scholar."
+
+- title: Projects & Grants
+  type: time_table
+  contents:
+    - title: HumanE-AI-Net (H2020)
+      year: Oct 2022 – Dec 2024
+      description:
+        - PI — Fairness & Diversity in Speech Datasets for Affective Computing; guidelines for diverse/unbiased datasets.
+        - Researcher — Emotion Recognition for Human-Centered Conversational Agents. # :contentReference[oaicite:13]{index=13}
+    - title: 5GMED (H2020)
+      year: Apr 2021 – Sep 2021
+      description:
+        - Ambient Intelligence — Disruptive Situations Detection via SER on public transport. # :contentReference[oaicite:14]{index=14}
+
+- title: Community Service
+  type: time_table
+  contents:
+    - title: Student Volunteer Co-Chair
+      institution: ACL 2025 (Vienna)
+      year: Jul 2024 – Aug 2025
+    - title: Coordinator, Alumni Association (M.Sc. AI)
+      institution: University of Bologna
+      year: Jan 2022 – Nov 2025
+    - title: Student Volunteer
+      institution: LREC-COLING 2024; CLEF 2022
+      year: 2022–2024
+      # All from your CV. :contentReference[oaicite:15]{index=15}
+
+- title: Awards
+  type: list
+  contents:
+    - "ISWS 2023 — Best Scientific Report; 2nd Best Poster (Bertinoro, Italy)." # :contentReference[oaicite:16]{index=16}
+    - "AIxIA 2022 — Best Doctoral Consortium Paper Award (Udine, Italy)." # :contentReference[oaicite:17]{index=17}
+
+- title: Skills
+  type: map
+  contents:
+    - name: Programming
+      value: Python, Java, C, C#, R, Scala, Prolog, SQL, MATLAB
+    - name: ML Frameworks
+      value: PyTorch, TensorFlow
+    - name: HPC
+      value: SLURM, Multi-GPU, HPC clusters
+    - name: LLMs
+      value: Fine-tuning, Model Parallelism, Distributed Inference
+    - name: VCS
+      value: GitHub, GitLab, Git, Bitbucket
+      # From your CV. :contentReference[oaicite:18]{index=18}
+
+- title: Languages
+  type: map
+  contents:
+    - name: English
+      value: Fluent
+    - name: Spanish
+      value: Fluent
+    - name: Italian
+      value: Native
+      # From your CV. :contentReference[oaicite:19]{index=19}
